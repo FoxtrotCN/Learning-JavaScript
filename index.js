@@ -3,28 +3,36 @@ moneyCofla = prompt("Cuanto dinero tienes Cofla?");
 moneyRoberto = prompt("Cuanto dinero tienes Roberto?");
 moneyPedro = prompt("Cuanto dinero tienes pedro?");
 
+moneyCofla = parseInt(moneyCofla);
+
 if (moneyCofla >= 0.6 && moneyCofla < 1) {
     alert("Cofla, Compra el helado de agua");
+    alert("Cofla, te sobran: $" + (moneyCofla - 0.6));
 }
 
 else if (moneyCofla >= 1 && moneyCofla < 1.6) {
     alert("Cofla, Compra el helado de crema");
+    alert("Cofla, te sobran: $" + (moneyCofla - 1));
 }
 
 else if (moneyCofla >= 1.6 && moneyCofla < 1.7) {
     alert("Cofla, Compra el helado de heladix");
+    alert("Cofla, te sobran: $" + (moneyCofla - 1.6));
 }
 
 else if (moneyCofla >= 1.7 && moneyCofla < 1.8) {
     alert("Cofla, Compra el helado de heladovich");
+    alert("Cofla, te sobran: $" + moneyCofla - 1.7);
 }
 
 else if (moneyCofla >= 1.8 && moneyCofla < 2.9) {
     alert(" Cofla, Compra el helado de helardo");
+    alert("Cofla, te sobran: $" + (moneyCofla - 1.8));
 }
 
 else if (moneyCofla >= 2.9) {
     alert("Cofla, Compra el helado de Pote de 1/4 KG o con Confites");
+    alert("Cofla, te sobran: $" + (moneyCofla - 2.9));
 }
 
 else {
