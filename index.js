@@ -1,8 +1,17 @@
 // Bucles and Iteration
 
- let numberForAdd = 0;
+ let number = 0;
 
-while (numberForAdd < 10) {
-    numberForAdd++;
-    alert(numberForAdd);
+// while (number < 10) {
+//     number++;
+//     alert(number);
+// }
+
+do {
+
+    alert(number);
+    number++;
 }
+
+while (number <= 6);
+
