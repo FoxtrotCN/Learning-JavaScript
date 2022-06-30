@@ -7,11 +7,18 @@
 //     alert(number);
 // }
 
-do {
+// do {
+//
+//     alert(number);
+//     number++;
+// }
+//
+// while (number <= 6);
 
-    alert(number);
+while (number < 1000) {
     number++;
+    document.write(number);
+    if (number == 10) {
+        break;
+    }
 }
-
-while (number <= 6);
-
